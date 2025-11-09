@@ -31,16 +31,14 @@ Detección de subredes y recomendaciones de seguridad
 
 Métricas de rendimiento y resúmenes ejecutivos
 
-🌐 Herramientas de Red
+# 🌐 Herramientas de Red
 Información de interfaces de red
 
 Tabla de rutas y conexiones establecidas
 
 Verificación de conectividad
 
-🛠️ Instalación
-
-Prerrequisitos
+# 🛠️ Instalación
 
 # Instalar Crystal
 curl -fsSL https://crystal-lang.org/install.sh | sudo bash
