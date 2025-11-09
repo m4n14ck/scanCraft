@@ -1,101 +1,105 @@
-RESUMEN DE LA HERRAMIENTA
-SCANCRAFT - GESTOR DE ESCANEOS NMAP
+ScanCraft - Gestor de Escaneos Nmap
+Descripción
+ScanCraft es una herramienta que simplifica el uso de Nmap, permitiendo crear, guardar y ejecutar escaneos de red personalizados sin necesidad de recordar comandos complejos. Convierte a Nmap de una utilidad de línea de comandos en una suite completa de escaneo y análisis de redes.
 
-QUE ES ESTA HERRAMIENTA?
-Es un programa que simplifica el uso de Nmap, permitiendote crear, guardar y ejecutar escaneos de red personalizados sin necesidad de recordar comandos complejos.
-
-CARACTERISTICAS PRINCIPALES
-Gestion de Comandos
-
+Características
+🛠️ Gestión de Comandos
 Crear y guardar comandos Nmap personalizados
 
-Listar todos los comandos guardados
+Listar y organizar todos los comandos guardados
 
-Editar comandos existentes
+Editar y actualizar comandos existentes
 
-Eliminar comandos que ya no uses
+Eliminar comandos que ya no se usen
 
-Exportar e importar configuraciones
+Exportar e importar configuraciones entre sistemas
 
-Ejecucion de Escaneos
+🔍 Ejecución de Escaneos
+Ejecutar escaneos preconfigurados con selección simple
 
-Ejecutar escaneos preconfigurados con solo seleccionarlos
+Resultados en tiempo real durante la ejecución
 
-Mostrar resultados en tiempo real
+Guardado opcional de resultados después del escaneo
 
-Opcion de guardar resultados despues del escaneo
+Detección inteligente de escaneos interrumpidos (Ctrl+C)
 
-Deteccion de escaneos interrumpidos (Ctrl+C)
+Validación automática de parámetros
 
-Analisis de Resultados
+📊 Análisis de Resultados
+Visualización de resultados guardados
 
-Ver resultados guardados de escaneos anteriores
+Análisis detallado automático de escaneos
 
-Analisis detallado automatico de resultados
+Estadísticas completas de hosts, puertos y servicios
 
-Estadisticas de hosts, puertos y servicios
-
-Deteccion de subredes analizadas
+Detección automática de subredes analizadas
 
 Recomendaciones de seguridad basadas en hallazgos
 
-Informacion de Red
+Métricas de rendimiento y resumen ejecutivo
 
-Visualizacion de interfaces de red
+🌐 Información de Red
+Visualización de interfaces de red
 
 Tabla de rutas del sistema
 
 Conexiones de red establecidas
 
-Verificacion de conectividad a internet
+Verificación de conectividad a internet
 
-Estadisticas y Reportes
+📈 Estadísticas y Reportes
+Estadísticas básicas del sistema
 
-Estadisticas basicas del sistema
+Análisis avanzado de escaneos específicos
 
-Analisis avanzado de escaneos especificos
+Métricas de uso y espacio en disco
 
-Metricas de rendimiento y seguridad
+Resumen ejecutivo de escaneos completados
 
-Resumen ejecutivo de escaneos
-
-VENTAJAS PRINCIPALES
+Ventajas
 Para Usuarios Novatos
-
 No requiere memorizar comandos Nmap complejos
 
-Interfaz intuitiva y guiada
+Interfaz intuitiva y guiada paso a paso
 
-Validacion automatica de parametros
+Validación automática de parámetros
 
-Ejemplos integrados para aprender
+Ejemplos integrados para aprendizaje
 
 Para Usuarios Avanzados
-
 Ahorra tiempo en escaneos repetitivos
 
-Organizacion centralizada de comandos
+Organización centralizada de comandos
 
-Analisis automatico de resultados
+Análisis automático de resultados
 
-Portabilidad de configuraciones
+Portabilidad de configuraciones entre equipos
 
-Caracteristicas Tecnicas
-
-Una sola ejecucion por escaneo (eficiente)
+Técnicas
+Una sola ejecución por escaneo (eficiente)
 
 Guardado opcional de resultados
 
 Manejo seguro de interrupciones
 
-Sistema de respaldo y restauracion
+Sistema de respaldo y restauración
 
-Gestion de Datos
+Instalación y Compilación
+Prerrequisitos
 
-Almacenamiento persistente de comandos
+# Instalar Crystal (Ubuntu/Debian)
+curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 
-Organizacion automatica de resultados
+# Instalar Nmap y dependencias
+sudo apt update
+sudo apt install crystal nmap iproute2 net-tools iputils-ping libssl-dev libxml2-dev libyaml-dev libgmp-dev libz-dev
 
-Estadisticas de uso y espacio
+# Clonar o descargar el código fuente
+# Compilar el proyecto
+crystal build scanner.cr -o scancraft --release
 
-Exportacion para compartir configuraciones
+# Hacer ejecutable
+chmod +x scancraft
+
+# Ejecutar el programa
+./scancraft
