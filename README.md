@@ -1,4 +1,7 @@
 # ScanCraft - Gestor de Escaneos Nmap
+
+<img width="888" height="585" alt="image" src="https://github.com/user-attachments/assets/ad13f537-cbe0-4955-ad1c-6914122801cb" />
+
 📖 Descripción
 Interfaz interactiva que simplifica el uso de Nmap mediante la gestión de comandos personalizados, ejecución de escaneos y análisis automatizado de resultados.
 
