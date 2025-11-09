@@ -47,6 +47,7 @@ curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 sudo apt install nmap iproute2 net-tools iputils-ping
 
 crystal build scanCraft.cr -o scancraft --release
+
 chmod +x scancraft
 
 ./scancraft
