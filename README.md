@@ -2,25 +2,27 @@
 
 <img width="888" height="585" alt="image" src="https://github.com/user-attachments/assets/ad13f537-cbe0-4955-ad1c-6914122801cb" />
 
-📖 Descripción
+# 📖 Descripción
 Interfaz interactiva que simplifica el uso de Nmap mediante la gestión de comandos personalizados, ejecución de escaneos y análisis automatizado de resultados.
 
-✨ Características Principales
-🔧 Gestión de Comandos
+# Características Principales
+  Gestión de Comandos
 Crear, editar y eliminar comandos Nmap personalizados
 
 Guardar configuraciones para uso repetido
 
 Exportar/importar configuraciones entre sistemas
 
-🚀 Ejecución de Escaneos
+
+# 🚀 Ejecución de Escaneos
+
 Ejecutar escaneos preconfigurados con un clic
 
 Mostrar resultados en tiempo real
 
 Guardado opcional de resultados
 
-📊 Análisis Avanzado
+# 📊 Análisis 
 Análisis automático de resultados de escaneos
 
 Estadísticas de hosts, puertos y servicios
