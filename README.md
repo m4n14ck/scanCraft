@@ -40,7 +40,7 @@ Verificación de conectividad
 
 # 🛠️ Instalación
 
-# Instalar Crystal
+ Instalar Crystal
 curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 
 # Instalar dependencias (Ubuntu/Debian)
