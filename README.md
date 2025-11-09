@@ -46,7 +46,7 @@ curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 # Instalar dependencias (Ubuntu/Debian)
 sudo apt install nmap iproute2 net-tools iputils-ping
 
-crystal build scanner.cr -o scancraft --release
+crystal build scanCraft.cr -o scancraft --release
 chmod +x scancraft
 
 ./scancraft
